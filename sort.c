@@ -12,7 +12,7 @@ void swap(int* xp, int* yp){
 void bubbleSort(int arr[], int n){
     int i, j;
     bool swapped;
-    for (i = 0; i < ; i++) {
+    for (i = 0; i < n-1 ; i++) {
         swapped = false;
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -31,7 +31,7 @@ void bubbleSort(int arr[], int n){
 // Function to print an array
 void printArray(int arr[], int size){
     int i;
-    for (i = 0; i < size; i++)
+    for (i = 0; i < ; i++)
         printf("%d ", arr[i]);
 }
 
