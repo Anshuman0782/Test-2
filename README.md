@@ -23,7 +23,7 @@ To build and run the code, follow these steps:
 4. Run the code: `./sort`
 
 ## Environment Variables
-N/A
+No environment variables are used in this project.
 
 ## Usage Flow
 To use the Bubble Sort implementation:
@@ -34,10 +34,23 @@ To use the Bubble Sort implementation:
 5. Print the sorted array: `printArray(arr, n);`
 
 ## Safety Notes
-Use secure input/output operations and handle errors properly when integrating this code into your project.
+When integrating this code into your project, use secure input/output operations and handle errors properly to avoid potential issues.
 
 ## Roadmap
-There is no current roadmap for future development or updates. This repository provides a standalone implementation of Bubble Sort.
+Currently, there is no roadmap for future development or updates. This repository provides a standalone implementation of Bubble Sort.
 
 ## Contributing
 To contribute to this repository, fork the project and submit a pull request with your changes.
+
+## Troubleshooting
+* If you encounter any compilation issues, ensure that you have properly installed the C compiler and the necessary libraries.
+* If you experience any errors during runtime, verify that the input array is valid and correctly sorted.
+
+## Contact
+For any questions or feedback, please create an issue in this repository.
+
+## License
+This project is distributed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgments
+Thank you to all contributors for their efforts in improving this project.
