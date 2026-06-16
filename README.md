@@ -1,56 +1,86 @@
-# Project Overview
-This repository provides an optimized implementation of Bubble sort for sorting arrays of integers.
+# README
 
-## Tech Stack
-* C programming language
-* Standard Libraries:
-	+ `stdbool.h` for boolean types and constants
-	+ `stdio.h` for input/output operations
+**Project Overview**
+=====================
 
-## Features
-* **Bubble Sort**: An optimized version of Bubble Sort for sorting arrays of integers
-* **Array Sorting**: Sorts an array of integers in ascending order
+Este repositorio provee una implementación optimizada de Bubble Sort para ordenar arrays de enteros.
 
-## Project Structure
-The repository consists of a single file:
-* `sort.c`: Contains the optimized implementation of Bubble Sort
+**Tech Stack**
+==============
 
-## Local Setup
-To build and run the code, follow these steps:
-1. Clone the repository: `git clone <repository_url>`
-2. Navigate to the project directory: `cd <project_directory>`
-3. Compile the code: `gcc sort.c -o sort`
-4. Run the code: `./sort`
+* Idioma de programación C
+* Librerías estándar:
+	+ `stdbool.h` para tipos y constantes booleanos
+	+ `stdio.h` para operaciones de entrada y salida
 
-## Environment Variables
-No environment variables are used in this project.
+**Features**
+==========
 
-## Usage Flow
-To use the Bubble Sort implementation:
-1. Include the necessary headers: `#include <stdbool.h>` and `#include <stdio.h>`
-2. Define the array to be sorted: `int arr[] = {64, 34, 25, 12, 22, 11, 90};`
-3. Calculate the size of the array: `int n = sizeof(arr) / sizeof(arr[0]);`
-4. Call the `bubbleSort` function: `bubbleSort(arr, n);`
-5. Print the sorted array: `printArray(arr, n);`
+* **Bubble Sort**: Una versión optimizada de Bubble Sort para ordenar arrays de enteros
+* **Array Sorting**: Ordena un array de enteros en orden ascendente
 
-## Safety Notes
-When integrating this code into your project, use secure input/output operations and handle errors properly to avoid potential issues.
+**Project Structure**
+=====================
 
-## Roadmap
-Currently, there is no roadmap for future development or updates. This repository provides a standalone implementation of Bubble Sort.
+El repositorio consiste de un solo archivo:
+* `sort.c`: Contiene la implementación optimizada de Bubble Sort
 
-## Contributing
-To contribute to this repository, fork the project and submit a pull request with your changes.
+**Local Setup**
+==============
 
-## Troubleshooting
-* If you encounter any compilation issues, ensure that you have properly installed the C compiler and the necessary libraries.
-* If you experience any errors during runtime, verify that the input array is valid and correctly sorted.
+Para compilar y ejecutar el código, siga estos pasos:
+1. Clone el repositorio: `git clone <repository_url>`
+2. Navegue a la carpeta del proyecto: `cd <project_directory>`
+3. Compile el código: `gcc sort.c -o sort`
+4. Ejecute el código: `./sort`
 
-## Contact
-For any questions or feedback, please create an issue in this repository.
+**Environment Variables**
+=======================
 
-## License
-This project is distributed under the [MIT License](https://opensource.org/licenses/MIT).
+No se utilizan variables de entorno en este proyecto.
 
-## Acknowledgments
-Thank you to all contributors for their efforts in improving this project.
+**Usage Flow**
+==============
+
+Para usar la implementación de Bubble Sort:
+1. Incluya las cabeceras necesarias: `#include <stdbool.h>` y `#include <stdio.h>`
+2. Defina el array a ordenar: `int arr[] = {64, 34, 25, 12, 22, 11, 90};`
+3. Calculate el tamaño del array: `int n = sizeof(arr) / sizeof(arr[0]);`
+4. Llame la función `bubbleSort`: `bubbleSort(arr, n);`
+5. Imprima el array ordenado: `printArray(arr, n);`
+
+**Safety Notes**
+==============
+
+Al integrar este código en su proyecto, utilice operaciones de entrada y salida seguras y maneje errores adecuadamente para evitar problemas potenciales.
+
+**Roadmap**
+========
+
+Actualmente, no hay un plan de desarrollo ni actualizaciones futuras. Este repositorio proporciona una implementación independiente de Bubble Sort.
+
+**Contributing**
+==============
+
+Para contribuir a este repositorio, forque el proyecto y envíe una solicitud de cambio con sus cambios.
+
+**Troubleshooting**
+================
+
+* Si encuentra problemas de compilación, asegúrese de que tenga instalado el compilador C y las bibliotecas necesarias correctamente.
+* Si experimenta errores durante la ejecución, verifique que el array de entrada sea válido y correctamente ordenado.
+
+**Contact**
+=========
+
+Si tiene alguna pregunta o retroalimentación, cree un problema en este repositorio.
+
+**License**
+=====
+
+Este proyecto se distribuye bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+**Acknowledgments**
+================
+
+Muchas gracias a todos los colaboradores por sus esfuerzos en mejorar este proyecto.
